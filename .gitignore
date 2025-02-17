@@ -28,3 +28,7 @@ dist-ssr
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+
+# Assets
+src/assets/bg.mov

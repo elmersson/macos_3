@@ -1,10 +1,10 @@
 import './App.css';
-
+import Wallpaper from './components/Wallpaper';
 function App() {
   return (
-    <>
-      <h1>macOS 3</h1>
-    </>
+    <div className="flex min-h-screen min-w-screen bg-red-500">
+      <Wallpaper />
+    </div>
   );
 }
 
