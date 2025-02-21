@@ -39,18 +39,21 @@ export default function Wallpaper() {
         <video
           ref={videoRef}
           src={bgVideo}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover'
+          }}
           autoPlay
-          muted
           loop
           playsInline
-          className="w-full h-full object-cover"
-          poster={bg}
+          muted
         />
       ) : (
         <img
           src={bg}
           alt="Background image"
-          className="w-full h-full object-cover"
+          className="h-full w-full object-cover"
         />
       )}
     </div>
