@@ -1,8 +1,9 @@
 import './App.css';
 import Wallpaper from './components/Wallpaper';
+
 function App() {
   return (
-    <div className="flex min-h-screen min-w-screen bg-red-500">
+    <div className="h-screen w-screen bg-black">
       <Wallpaper />
     </div>
   );
